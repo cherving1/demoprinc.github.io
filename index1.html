@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina personal</title>
+</head>
+
+<body>
+    <p>Mi nombre es danluis enrique romani mora</p>
+    <p>soy ingeniero informatico y de sistemas</p>
+    <!--insertar una imagen de HTML-->
+    <img src="imagenes/1071815.jpg" alt="1071815" height="350" width="500">
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QkMPwkNNob4?si=1dhHPxxYWLKv_9hh"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SCD2tB1qILc?si=RtVA1ZJP9wwodFn0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QuCc1qGxF6A?si=-VJkIzWbT0S49QCA"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18990.753284093164!2d-71.85570999142237!3d-13.556394866626535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916e7d4c9db42bf5%3A0xe56b22b37c2e89f9!2sUniversidad%20Continental%20-%20Campus%20Cusco!5e0!3m2!1ses-419!2spe!4v1712259793619!5m2!1ses-419!2spe"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1>primera vercion del aplicativo</h1>
+        <h2>segunda vercion del aplicativo</h2>
+        <style>
+            body {
+                background-color: #f0f8ff;
+                font-family: Arial, sans-serif;
+                color: #333;
+            }
+            h1 {
+                color: #ff6347;
+            }
+            p {
+                color: #20b2aa;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>¡Hola, mundo!</h1>
+        <p>¡Bienvenido a mi página web!</p>
+    <h3>tercera vecion del aplicativo</h3>
+    <h4>cuarta vecion</h4>
+    <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #000;
+            font-family: 'Courier New', Courier, monospace;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .epic {
+            font-size: 5em;
+            text-align: center;
+            position: relative;
+            animation: epic 2s infinite;
+        }
+        @keyframes epic {
+            0% {color: #ff0000; text-shadow: 0 0 5px #ff0000;}
+            20% {color: #ff7700; text-shadow: 0 0 5px #ff7700;}
+            40% {color: #ffdd00; text-shadow: 0 0 5px #ffdd00;}
+            60% {color: #80ff00; text-shadow: 0 0 5px #80ff00;}
+            80% {color: #00ffdd; text-shadow: 0 0 5px #00ffdd;}
+            100% {color: #dd00ff; text-shadow: 0 0 5px #dd00ff;}
+        }
+    </style>
+</head>
+<body>
+    <div class="epic">¡Épico!</div>
+<h5>quitan vercion</h5>
+<title>Juego de adivinanza</title>
+    <script type="text/javascript">
+        var numeroSecreto = Math.floor(Math.random() * 100) + 1;
+        var intentos = 0;
+
+        function jugar() {
+            var numeroUsuario = document.getElementById('numeroUsuario').value;
+            intentos++;
+            if (numeroUsuario < numeroSecreto) {
+                document.getElementById('pista').innerHTML = "¡Demasiado bajo!";
+            } else if (numeroUsuario > numeroSecreto) {
+                document.getElementById('pista').innerHTML = "¡Demasiado alto!";
+            } else {
+                document.getElementById('pista').innerHTML = "¡Correcto! Lo lograste en " + intentos + " intentos.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>¡Bienvenido al juego de adivinanza!</h1>
+    <p>Adivina un número entre 1 y 100:</p>
+    <input type="text" id="numeroUsuario">
+    <button onclick="jugar()">¡Adivina!</button>
+    <p id="pista"></p>
+</body>
+
+</html>
